@@ -1,0 +1,25 @@
+.feedback__wrapper {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.feedback__title {
+  font-size: 3rem;
+  line-height: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.feedback__list {
+  position: relative;
+  margin: 5px 0;
+  max-width: 1600px;
+  min-height: 100px;
+  overflow: hidden;
+  display: flex;
+}
+
+.feedback__list:hover .feedback__item {
+  cursor: pointer;
+  animation-play-state: paused;
+}

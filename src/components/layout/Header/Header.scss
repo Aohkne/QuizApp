@@ -1,0 +1,153 @@
+.header__wrappper {
+  padding: 10px 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header__wrappper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__item {
+  a {
+    text-decoration: none;
+    position: relative;
+    color: var(--text);
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text);
+    transition: width 0.3s ease-in;
+  }
+
+  a:hover::after {
+    width: 100%;
+  }
+  & + .navigation__item {
+    margin-left: 80px;
+  }
+}
+
+.header__social {
+  display: flex;
+  align-items: center;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__item {
+  a {
+    font-size: 1.5rem;
+    color: var(--text);
+  }
+  & + .social__item {
+    margin-left: 30px;
+  }
+}
+
+.header__action {
+  a {
+    color: var(--primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+  }
+
+  .header__icon {
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+    cursor: pointer;
+  }
+}
+
+// User
+.user__wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: var(--white);
+  box-shadow: -2px 0px 5px 0px var(--black);
+  height: 100vh;
+  z-index: 1;
+}
+
+.user__img {
+  display: flex;
+  align-items: center;
+  min-width: 280px;
+  padding: 12.5px 28px;
+  border-bottom: 1px solid #cccccc;
+
+  .user_icon {
+    color: var(--primary);
+    font-size: 3rem;
+  }
+  span {
+    display: block;
+    margin: auto 5px 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}
+
+.user__list {
+  padding: 0px 15px;
+}
+
+.user__item {
+  margin-top: 30px;
+  a {
+    display: block;
+    color: #2f3a4a;
+    padding: 15px 9px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 15px;
+    &:hover {
+      color: var(--white);
+      background-color: #2f3a4a;
+    }
+  }
+}
+
+.user__logout {
+  display: block;
+  margin-top: 380px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 36px;
+  color: var(--white);
+  background-color: var(--red);
+}

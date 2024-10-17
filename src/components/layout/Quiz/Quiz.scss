@@ -1,0 +1,17 @@
+.quiz__wrapper {
+  padding: 35px 0 80px;
+  text-align: center;
+}
+
+.quiz__title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #2f3a4a;
+}
+
+.cart__list {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 950px;
+}

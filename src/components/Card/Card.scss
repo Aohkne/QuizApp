@@ -1,0 +1,37 @@
+.card__wrappper {
+  padding: 10px 15px 15px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  margin: 35px 15px 0;
+  cursor: pointer;
+  box-shadow: 1px 4px 4px 0px #00000040;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    border-color: var(--hover);
+  }
+}
+
+.card__container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.card__description {
+  color: #888888;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__action {
+  display: flex;
+  justify-content: start;
+}

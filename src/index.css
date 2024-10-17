@@ -1,29 +1,33 @@
 :root {
-
+  --white: #FFFFFF;
   --black: #242424;
-  --yellow: #FDC62E;
-  --red: #F42C37;
-  --green: #2CD06F;
-  --blue: #157CFF;
+  --gray: #888888;
+  --yellow: #fdc62e;
+  --red: #f42c37;
+  --green: #2cd06f;
+  --blue: #157cff;
 
+  --primary: #5a51e6;
+  --text: #716aea;
+  --text-bold: #06026d;
+  --hover: #8a68e5;
+}
 
-  --primary: #5A51E6;
-  --text: #716AEA;
-  --text-bold: #06026D;
-  --hover: #8A68E5;
-
+@font-face {
+  font-family: 'Poppins';
+  src: url('./asset/font/Poppins-Regular.ttf') format('truetype');
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', 'Roboto', sans-serif;
 }
 
 html {
   font-size: 62.5%;
 }
-
 
 button,
 input,
