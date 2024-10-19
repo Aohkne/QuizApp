@@ -1,0 +1,220 @@
+[
+  {
+    "id": 3,
+    "title": "History Trivia Challenge",
+    "description": "A quiz game testing knowledge and skills in world history",
+    "number_of_questions": 10,
+    "type": "history",
+    "questions": [
+      {
+        "question": "Who was the first President of the United States?",
+        "options": {
+          "A": "Thomas Jefferson",
+          "B": "Abraham Lincoln",
+          "C": "George Washington",
+          "D": "John Adams"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "In which year did World War II end?",
+        "options": {
+          "A": "1945",
+          "B": "1939",
+          "C": "1918",
+          "D": "1965"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Which civilization built the pyramids?",
+        "options": {
+          "A": "Romans",
+          "B": "Greeks",
+          "C": "Egyptians",
+          "D": "Persians"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Who was known as the 'Iron Lady'?",
+        "options": {
+          "A": "Margaret Thatcher",
+          "B": "Indira Gandhi",
+          "C": "Golda Meir",
+          "D": "Angela Merkel"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What was the name of the ship that famously sank in 1912?",
+        "options": {
+          "A": "Lusitania",
+          "B": "Titanic",
+          "C": "Queen Mary",
+          "D": "Bismarck"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which empire was ruled by Julius Caesar?",
+        "options": {
+          "A": "Ottoman Empire",
+          "B": "Mongol Empire",
+          "C": "Roman Empire",
+          "D": "British Empire"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Who discovered America in 1492?",
+        "options": {
+          "A": "Leif Erikson",
+          "B": "Christopher Columbus",
+          "C": "Marco Polo",
+          "D": "Amerigo Vespucci"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which historical figure is famous for the 'I Have a Dream' speech?",
+        "options": {
+          "A": "Nelson Mandela",
+          "B": "Martin Luther King Jr.",
+          "C": "Mahatma Gandhi",
+          "D": "John F. Kennedy"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which year did the Berlin Wall fall?",
+        "options": {
+          "A": "1989",
+          "B": "1991",
+          "C": "1979",
+          "D": "1963"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Who was the first person to walk on the moon?",
+        "options": {
+          "A": "Yuri Gagarin",
+          "B": "Neil Armstrong",
+          "C": "Buzz Aldrin",
+          "D": "Michael Collins"
+        },
+        "correct_answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Physics Trivia Challenge",
+    "description": "A quiz game testing knowledge and skills in basic physics",
+    "number_of_questions": 10,
+    "type": "physical",
+    "questions": [
+      {
+        "question": "What is the unit of force in the International System of Units (SI)?",
+        "options": {
+          "A": "Joule",
+          "B": "Newton",
+          "C": "Watt",
+          "D": "Pascal"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the speed of light in a vacuum?",
+        "options": {
+          "A": "300,000 km/s",
+          "B": "150,000 km/s",
+          "C": "1,000 km/s",
+          "D": "500,000 km/s"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Which law explains why objects fall towards the Earth?",
+        "options": {
+          "A": "Ohm's Law",
+          "B": "Newton's Law of Gravitation",
+          "C": "Archimedes' Principle",
+          "D": "Bernoulli's Principle"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the term for the amount of matter in an object?",
+        "options": {
+          "A": "Weight",
+          "B": "Volume",
+          "C": "Mass",
+          "D": "Density"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which form of energy is associated with motion?",
+        "options": {
+          "A": "Kinetic energy",
+          "B": "Potential energy",
+          "C": "Thermal energy",
+          "D": "Nuclear energy"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What is the force that opposes motion between two surfaces that are in contact?",
+        "options": {
+          "A": "Tension",
+          "B": "Friction",
+          "C": "Magnetism",
+          "D": "Air resistance"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which of the following particles is found in the nucleus of an atom?",
+        "options": {
+          "A": "Electron",
+          "B": "Proton",
+          "C": "Photon",
+          "D": "Neutrino"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which law states that for every action, there is an equal and opposite reaction?",
+        "options": {
+          "A": "Newton's First Law",
+          "B": "Newton's Second Law",
+          "C": "Newton's Third Law",
+          "D": "Law of Conservation of Energy"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What is the phenomenon of bending light called?",
+        "options": {
+          "A": "Diffraction",
+          "B": "Reflection",
+          "C": "Refraction",
+          "D": "Dispersion"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Who developed the theory of general relativity?",
+        "options": {
+          "A": "Isaac Newton",
+          "B": "Albert Einstein",
+          "C": "Galileo Galilei",
+          "D": "Niels Bohr"
+        },
+        "correct_answer": "B"
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 [
   {
-    "img": "/assets/img/user_img/user1.png",
+    "img": "../../../asset/img/user_img/user1.png",
     "name": "Le Huu Khoa",
     "username": "LHK",
     "stars": 5

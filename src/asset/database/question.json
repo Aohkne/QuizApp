@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "React Trivia Challenge",
     "description": "A quiz game testing knowledge and skills in React, a popular JavaScript library for user interfaces",
     "number_of_questions": 10,
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Animal Kingdom Quiz",
     "description": "An entertaining quiz game that explores the diverse world of animal species through engaging questions",
     "number_of_questions": 10,
@@ -218,7 +218,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Math Genius Challenge",
     "description": "A quiz game that tests your quick thinking and intelligence in solving math problems from basic to advanced levels",
     "number_of_questions": 10,

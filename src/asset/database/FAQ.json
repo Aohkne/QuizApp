@@ -12,7 +12,7 @@
     "answer": "Your data is completely private and won't be used anywhere"
   },
   {
-    "question": "How does hosting services works?",
-    "answer": "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."
+    "question": "Why is it not possible for me to add more questions?",
+    "answer": "You cannot add questions because the file you uploaded may not have the .json extension or may not be in the correct format. Please refer to the guide on our website for instructions on uploading the correct file format."
   }
 ]

@@ -39,3 +39,18 @@ input,
 a {
   text-decoration: none;
 }
+
+html ::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background-color: #00000026;
+  border-radius: 4px;
+}
+
+html ::-webkit-scrollbar-track {
+  background-color: #0000;
+  border-radius: 0;
+}

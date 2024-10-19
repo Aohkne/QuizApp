@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import math from "../../asset/img/mathIcon.png";
 import code from "../../asset/img/codeIcon.png";
 import science from "../../asset/img/scienceIcon.png";
+import history from "../../asset/img/historyIcon.png";
+import physical from "../../asset/img/physicalIcon.png";
 
 function Card({ data }) {
   let icon;
@@ -19,6 +21,10 @@ function Card({ data }) {
       ? code
       : data.type === "science"
       ? science
+      : data.type === "history"
+      ? history
+      : data.type === "physical"
+      ? physical
       : null;
 
   return (
@@ -36,7 +42,7 @@ function Card({ data }) {
 
       {/* Action */}
       <div className="card__action">
-        <Link to="/play">
+        <Link to={`/play?id=${data.id}`}>
           <Button primary small rightIcon={faAngleRight}>
             Try it now
           </Button>

@@ -1,4 +1,3 @@
-// import Authentic from "./page/Authentic";
 import Header from "./components/layout/Header";
 
 function App() {

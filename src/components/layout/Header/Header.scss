@@ -143,11 +143,18 @@
 
 .user__logout {
   display: block;
-  margin-top: 380px;
+  margin-top: 390px;
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
   line-height: 36px;
   color: var(--white);
+  border: 1px solid var(--red);
   background-color: var(--red);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--black);
+    background-color: transparent;
+  }
 }

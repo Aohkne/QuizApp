@@ -42,12 +42,12 @@
 
 .button--outline {
   color: var(--primary);
-  border-color: var(--primary);
+  border-color: 2px solid var(--primary);
   background-color: transparent;
 
   &:hover {
-    color: var(--primary);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--hover);
   }
 }
 
@@ -74,13 +74,8 @@
   padding: 12px 150px;
 }
 
-.button--enormous {
-  font-size: 3rem;
-  padding: 5px 375px;
-}
-
 .button--full {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 100%;
 }
 
@@ -93,10 +88,5 @@
   .button--medium {
     min-width: 141px;
     padding: 12px 24px;
-  }
-
-  .button--enormous {
-    padding: 5px 0;
-    width: 100%;
   }
 }

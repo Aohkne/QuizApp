@@ -12,6 +12,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 
 import Button from "../../Button";
 
@@ -22,22 +23,42 @@ import Profile from "../../../page/Profile";
 
 import HomePage from "../../../page/Home";
 import QuizPage from "../../../page/Game";
-// import AboutPage from "../../../page/Home";
+import PricingPage from "../Pricing/Pricing";
+import GuidePage from "../../../page/Guide";
 
 //Img
 import logo from "../../../asset/img/logo.png";
-import { useEffect, useRef, useState } from "react";
 
 function Header() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isUser, setIsUsser] = useState(false);
   const wrapper = useRef(null);
   const refIcon = useRef(null);
+
+  const handleLogout = (e) => {
+    document.cookie =
+      "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    setIsUsser(false);
+    setIsOpen(false);
+  };
 
   const handleOpenUser = (e) => {
     setIsOpen(true);
   };
+
   useEffect(() => {
+    //Check User
+    const cookieArr = document.cookie.split(";");
+    for (let i = 0; i < cookieArr.length; i++) {
+      let cookie = cookieArr[i].trim();
+      if (cookie.indexOf("username=") === 0) {
+        setIsUsser(true); //
+      } else {
+        setIsUsser(false);
+      }
+    }
+
     const handleClickOutside = (e) => {
       if (
         wrapper.current &&
@@ -54,7 +75,7 @@ function Header() {
     return () => {
       window.removeEventListener("click", handleClickOutside);
     };
-  }, [isOpen]);
+  }, [isOpen, isUser]);
 
   // Login
   const login = {
@@ -136,13 +157,13 @@ function Header() {
         <div className="header__navigation">
           <div className="navigation__list">
             <div className="navigation__item">
-              <Link to="/quiz" alt="">
-                Quiz
+              <Link to="/" alt="">
+                Home
               </Link>
             </div>
             <div className="navigation__item">
-              <Link to="/feedback" alt="">
-                Feedback
+              <Link to="/quiz" alt="">
+                Quiz
               </Link>
             </div>
             <div className="navigation__item">
@@ -151,8 +172,8 @@ function Header() {
               </Link>
             </div>
             <div className="navigation__item">
-              <Link to="/about" alt="">
-                About
+              <Link to="/guide" alt="">
+                Guide
               </Link>
             </div>
           </div>
@@ -167,7 +188,7 @@ function Header() {
               </a>
             </div>
             <div className="social__item">
-              <a href="/github" alt="">
+              <a href="https://github.com/Aohkne/QuizApp" alt="">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
@@ -186,18 +207,20 @@ function Header() {
 
         {/* Button */}
         <div className="header__action">
-          {/* <Link to="/login">
-            <Button medium primary rightIcon={faAngleRight}>
-              Get Started
-            </Button>
-          </Link> */}
-
-          <FontAwesomeIcon
-            icon={faCircleUser}
-            className="header__icon"
-            ref={refIcon}
-            onClick={handleOpenUser}
-          />
+          {isUser ? (
+            <FontAwesomeIcon
+              icon={faCircleUser}
+              className="header__icon"
+              ref={refIcon}
+              onClick={handleOpenUser}
+            />
+          ) : (
+            <Link to="/login">
+              <Button medium primary rightIcon={faAngleRight}>
+                Get Started
+              </Button>
+            </Link>
+          )}
         </div>
       </div>
 
@@ -213,19 +236,23 @@ function Header() {
               <Link to="/profile">My Profile</Link>
             </div>
             <div className="user__item">
-              <Link to="/profile">Upgrade</Link>
+              <Link to="/pricing">Upgrade</Link>
             </div>
             <div className="user__item">
-              <Link to="/profile">Feeback</Link>
+              <Link to="/guide">Help</Link>
             </div>
           </div>
-          <div className="user__logout">Log out</div>
+          <div className="user__logout" onClick={handleLogout}>
+            Log out
+          </div>
         </div>
       )}
 
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/quiz" element={<QuizPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
+        <Route path="/guide" element={<GuidePage />} />
       </Routes>
     </>
   );

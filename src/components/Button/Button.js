@@ -42,7 +42,6 @@ function Button({
     small ? "button--small" : "",
     medium ? "button--medium" : "",
     large ? "button--large" : "",
-    enormous ? "button--enormous" : "",
     full ? "button--full" : "",
   ]
     .filter(Boolean)
