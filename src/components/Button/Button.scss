@@ -1,0 +1,92 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: var(--white);
+  border: 1px solid transparent;
+  user-select: none;
+
+  + .button {
+    margin-left: 16px;
+  }
+}
+
+.icon + .title,
+.title + .icon {
+  margin-left: 5px;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.button--primary {
+  color: var(--white);
+  background-color: var(--primary);
+  border-color: var(--primary);
+
+  &:hover {
+    color: var(--primary);
+    background-color: var(--white);
+  }
+}
+
+.button--outline {
+  color: var(--primary);
+  border-color: 2px solid var(--primary);
+  background-color: transparent;
+
+  &:hover {
+    color: var(--white);
+    background-color: var(--hover);
+  }
+}
+
+.button--black {
+  color: var(--white);
+  background-color: #2f3a4a;
+  border: 2px solid #2f3a4a;
+
+  &:hover {
+    color: #2f3a4a;
+    background-color: var(--white);
+  }
+}
+
+.button--small {
+  padding: 6px 10px;
+}
+
+.button--medium {
+  padding: 10px 15px;
+}
+
+.button--large {
+  padding: 12px 150px;
+}
+
+.button--full {
+  font-size: 2rem;
+  width: 100%;
+}
+
+@media (max-width: 739px) {
+  .button--small {
+    min-width: 79px;
+    padding: 5px 18px;
+  }
+
+  .button--medium {
+    min-width: 141px;
+    padding: 12px 24px;
+  }
+}

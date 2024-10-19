@@ -1,0 +1,329 @@
+[
+  {
+    "id": 0,
+    "title": "React Trivia Challenge",
+    "description": "A quiz game testing knowledge and skills in React, a popular JavaScript library for user interfaces",
+    "number_of_questions": 10,
+    "type": "code",
+    "questions": [
+      {
+        "question": "What is React?",
+        "options": {
+          "A": "A programming language",
+          "B": "A JavaScript framework",
+          "C": "A JavaScript library",
+          "D": "An operating system"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which statement is used to create a component in React?",
+        "options": {
+          "A": "function MyComponent()",
+          "B": "createComponent()",
+          "C": "new Component()",
+          "D": "renderComponent()"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "What are props used for in React?",
+        "options": {
+          "A": "Storing data inside a component",
+          "B": "Passing data between components",
+          "C": "Defining the state of a component",
+          "D": "Changing the structure of a component"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which command is used to render a component in React?",
+        "options": {
+          "A": "ReactDOM.render()",
+          "B": "renderComponent()",
+          "C": "React.render()",
+          "D": "renderDOM()"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "How is state managed in React?",
+        "options": {
+          "A": "Read-only data",
+          "B": "Can be changed during the component’s lifecycle",
+          "C": "Can only be changed by the parent component",
+          "D": "Cannot be changed after initialization"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which method is used to update the state in React?",
+        "options": {
+          "A": "this.updateState()",
+          "B": "this.changeState()",
+          "C": "this.setState()",
+          "D": "this.modifyState()"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Hooks in React were introduced in which version?",
+        "options": {
+          "A": "15.0",
+          "B": "16.8",
+          "C": "17.0",
+          "D": "18.0"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which hook is used to manage state in functional components?",
+        "options": {
+          "A": "useContext",
+          "B": "useEffect",
+          "C": "useState",
+          "D": "useReducer"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "When should useEffect be used in React?",
+        "options": {
+          "A": "When managing forms",
+          "B": "When performing side effects like API calls",
+          "C": "When rendering another component",
+          "D": "When passing props to a component"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is JSX in React?",
+        "options": {
+          "A": "A framework",
+          "B": "A data type",
+          "C": "A syntax extension of JavaScript",
+          "D": "A React plugin"
+        },
+        "correct_answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Animal Kingdom Quiz",
+    "description": "An entertaining quiz game that explores the diverse world of animal species through engaging questions",
+    "number_of_questions": 10,
+    "type": "science",
+    "questions": [
+      {
+        "question": "What is the largest mammal on Earth?",
+        "options": {
+          "A": "Elephant",
+          "B": "Blue whale",
+          "C": "Crocodile",
+          "D": "Polar bear"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which animal is considered the fastest on land?",
+        "options": {
+          "A": "Lion",
+          "B": "Cheetah",
+          "C": "Zebra",
+          "D": "Wolf"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which animal has the longest gestation period?",
+        "options": {
+          "A": "Horse",
+          "B": "Elephant",
+          "C": "Giraffe",
+          "D": "Hippopotamus"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which bird has the ability to fly backward?",
+        "options": {
+          "A": "Eagle",
+          "B": "Falcon",
+          "C": "Hummingbird",
+          "D": "Pigeon"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which animal can change its color to camouflage?",
+        "options": {
+          "A": "Shark",
+          "B": "Chameleon",
+          "C": "Crocodile",
+          "D": "Frog"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the largest bird species currently?",
+        "options": {
+          "A": "Eagle",
+          "B": "Ostrich",
+          "C": "Penguin",
+          "D": "Pheasant"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which animal is known for having a good memory and being able to remember paths?",
+        "options": {
+          "A": "Dog",
+          "B": "Dolphin",
+          "C": "Elephant",
+          "D": "Monkey"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What is the most venomous animal in the world?",
+        "options": {
+          "A": "Cobra",
+          "B": "Blue-ringed octopus",
+          "C": "Great white shark",
+          "D": "Crocodile"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which fish is considered the fastest in the water?",
+        "options": {
+          "A": "Shark",
+          "B": "Sailfish",
+          "C": "Dolphin",
+          "D": "Tuna"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "Which animal has the highest survival rate when falling from great heights?",
+        "options": {
+          "A": "Cat",
+          "B": "Dog",
+          "C": "Bat",
+          "D": "Monkey"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Math Genius Challenge",
+    "description": "A quiz game that tests your quick thinking and intelligence in solving math problems from basic to advanced levels",
+    "number_of_questions": 10,
+    "type": "math",
+    "questions": [
+      {
+        "question": "What is the result of 5 + 3?",
+        "options": {
+          "A": "6",
+          "B": "7",
+          "C": "8",
+          "D": "9"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which number is smaller than 12?",
+        "options": {
+          "A": "15",
+          "B": "13",
+          "C": "12",
+          "D": "10"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "What is the result of 9 × 2?",
+        "options": {
+          "A": "17",
+          "B": "18",
+          "C": "19",
+          "D": "20"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "The sum of the angles in a triangle is?",
+        "options": {
+          "A": "90 degrees",
+          "B": "120 degrees",
+          "C": "180 degrees",
+          "D": "360 degrees"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What is the result of 15 - 7?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "Which number is divisible by both 2 and 3?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "What is the result of (3 squared)?",
+        "options": {
+          "A": "6",
+          "B": "9",
+          "C": "12",
+          "D": "15"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "How many zeros are in the number 1000?",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "How many cm² are there in 1 square meter?",
+        "options": {
+          "A": "100 cm²",
+          "B": "1000 cm²",
+          "C": "10000 cm²",
+          "D": "100000 cm²"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What is the result of 25 ÷ 5?",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "5",
+          "D": "6"
+        },
+        "correct_answer": "C"
+      }
+    ]
+  }
+]

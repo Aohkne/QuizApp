@@ -1,0 +1,30 @@
+.headerplay__wrapper {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.headerplay__list {
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+  padding: 6px 0;
+}
+
+.headerplay__item {
+  a {
+    padding: 0px 16px;
+    color: var(--hover);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    border-radius: 10px;
+    &:hover {
+      color: var(--white);
+      background-color: var(--hover);
+    }
+  }
+
+  & + .headerplay__item {
+    margin-left: 30px;
+  }
+}

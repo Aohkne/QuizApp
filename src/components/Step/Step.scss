@@ -1,0 +1,27 @@
+.step__wrapper {
+  margin: 10px 0;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.step__content {
+  display: flex;
+  font-weight: 600;
+}
+
+.step__num {
+  text-align: center;
+  min-width: 30px;
+  font-size: 1.6rem;
+  color: var(--white);
+  padding: 0 10px;
+  border-radius: 2px;
+  background-color: var(--primary);
+  margin-right: 5px;
+}
+
+.step__description {
+  margin: 10px 35px;
+  font-size: 1.6rem;
+  color: #888;
+}

@@ -1,0 +1,145 @@
+.question__title {
+  color: #2f3a4a;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 90px;
+}
+
+.question__container {
+  max-width: 750px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 4px 4px 0px #00000040;
+}
+
+.question__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question__time {
+  display: flex;
+  align-items: center;
+
+  span {
+    display: flex;
+    flex-direction: column;
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+  }
+
+  p {
+    margin: 5px 0 0;
+  }
+}
+
+.time__icon {
+  color: var(--primary);
+  font-size: 3.5rem;
+  margin-right: 7px;
+}
+
+.question__content {
+  display: flex;
+  margin: 20px 0;
+}
+
+.question__questionInfo {
+}
+
+.question__num {
+  color: #2f3a4a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+.question__question {
+  color: #2f3a4a;
+  min-height: 50px;
+  margin: 10px 0 5px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+.question__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.question__item {
+  padding: 0px 12px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+  min-width: 250px;
+  min-height: 50px;
+  color: var(--hover);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  border-radius: 5px;
+  border: 2px solid var(--hover);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--white);
+    background-color: var(--hover);
+  }
+
+  &.selected {
+    color: var(--white);
+    background-color: var(--hover);
+  }
+}
+
+.question__progress {
+  position: relative;
+  width: 200%;
+}
+
+.question__progress svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg) scaleY(-1);
+  z-index: -1;
+}
+
+.question__progress svg circle {
+  transform: translate(50%, 50%);
+  fill: none;
+  stroke: #cccccc;
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+#progress {
+  stroke: var(--primary);
+  // Tham số thứ 2 là gap đẩy ra vô tận(để ko bị tách làm nhiều phần)
+  stroke-dasharray: 0 9999;
+  transition: 0.5s linear;
+}
+
+#progress__count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+.question__action {
+  display: flex;
+}

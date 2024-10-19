@@ -1,0 +1,18 @@
+[
+  {
+    "question": "How does quizapp work?",
+    "answer": "Quizapp is a program allow users to create their own set of questions and answers."
+  },
+  {
+    "question": "Where is my data store?",
+    "answer": "Your data is stored securely in our database."
+  },
+  {
+    "question": "How is my data being used",
+    "answer": "Your data is completely private and won't be used anywhere"
+  },
+  {
+    "question": "Why is it not possible for me to add more questions?",
+    "answer": "You cannot add questions because the file you uploaded may not have the .json extension or may not be in the correct format. Please refer to the guide on our website for instructions on uploading the correct file format."
+  }
+]

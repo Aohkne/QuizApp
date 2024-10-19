@@ -1,0 +1,44 @@
+.help__container {
+  padding: 96px 80px;
+}
+
+.help__title {
+  color: #2f3a4a;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+}
+
+.help__subTitle {
+  color: #667085;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 30px;
+  text-align: center;
+}
+
+.dropdown__list {
+  margin: 64px auto 0;
+  max-width: 768px;
+}
+
+@media (max-width: 739px) {
+  .help__container {
+    padding: 69px 20px;
+    background-image: none;
+  }
+
+  .help__title {
+    font-size: 30px;
+  }
+
+  .help__subTitle {
+    margin-top: 14px;
+  }
+
+  .dropdown__list {
+    margin: 40px auto 0;
+  }
+}
