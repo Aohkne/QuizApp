@@ -4,6 +4,10 @@ import "./Tag.scss";
 import start from "../../asset/img/start.png";
 
 function Tag({ user, right = false, className = "" }) {
+  //Json can not get ../ before
+  const userImgPath = require(`../../${user.img}`);
+
+  //Scroll left-right
   const classes = ["tag__wrapper", right ? "right" : "", className]
     .filter(Boolean)
     .join(" ");
@@ -12,7 +16,7 @@ function Tag({ user, right = false, className = "" }) {
       {/* Container */}
       <div className="tag__container">
         <div className="tag__img">
-          <img src={user.img} alt="" />
+          <img src={userImgPath} alt="" />
         </div>
 
         {/* Content */}
