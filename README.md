@@ -1,4 +1,4 @@
-# Getting Started with QuizApp
+#  <img src="public/logo.png" alt="QuizApp Logo" /> Getting Started with QuizApp
 
 The web platform with customizable quizzes is written in [React](https://github.com/facebook/create-react-app).
 
